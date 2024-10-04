@@ -5,9 +5,15 @@
     margin: 0%;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+
 body {
-    width: 100vw;
-    height: 100vh;
+    width: 95vw;
+    height: 95vh;
     background: black url(imagens/tela-home.jpg) no-repeat top center;
     background-size: cover;
 }
